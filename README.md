@@ -1,8 +1,7 @@
 monitor
 =======
 
-| Licensed under the MIT license
-| Autor: Prem Karat (prem.karat@gmail.com)
+Basic remote monitoring tool.
 
 monitor daemon connects to a remote host at every interval and collects the following information
 
@@ -49,3 +48,13 @@ Monitor result log
 monitor log is available under::
 
     monitor.log
+
+License 
+=======
+
+This project is licensed under the MIT License
+
+Authors 
+=======
+
+* Prem Karat [prem(dot)karat(at)gmail(dot)com]
