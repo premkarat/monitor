@@ -38,6 +38,10 @@ Running monitor
 
     monitor <host-ip> <interval>
 
+Usage::
+    host-ip: Valid IPv4 address
+    interval: in seconds (greater than 0)
+
 Example::
 
     monitor.py 192.168.1.1 60
