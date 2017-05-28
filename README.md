@@ -13,10 +13,15 @@ monitor daemon connects to a remote host at every interval and collects the foll
 Requirements
 ============
 
-python-pip package should be availble on the target machine.
+* Ensure passwordless SSH login is setup before executing the tool. A couple of references to setup it up.
 
-If not, download get-pip.py from
-    https://bootstrap.pypa.io/get-pip.py
+    [thegeekstuff](http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id)
+
+    [techmint](https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/)
+
+* python-pip package should be availble on the target machine.
+
+If not, download get-pip.py from [get-pip](https://bootstrap.pypa.io/get-pip.py)
 
 Install it by running::
 
