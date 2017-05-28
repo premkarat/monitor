@@ -38,7 +38,6 @@ Running monitor
 
     monitor <host-ip> <interval>
 
-Usage::
     host-ip: Valid IPv4 address
     interval: in seconds (greater than 0)
 
