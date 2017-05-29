@@ -19,15 +19,10 @@ Requirements
 
     [techmint](https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/)
 
-* python-pip package should be availble on the target machine.
+* Ensure passwordless sudo can be executed on the remote host.
 
-If not, download get-pip.py from [get-pip](https://bootstrap.pypa.io/get-pip.py)
+* python-pip should be availble on the target machine.
 
-Install it by running::
-
-    $ python get-pip.py
-
-This will install pip on the target machine.
 
 Deploy
 ======
@@ -41,14 +36,22 @@ Basic steps::
 Running monitor
 ===============
 
-    monitor <host-ip> <interval>
+    monitor <host-ip> <interval> <start|stop>
 
     host-ip: Valid IPv4 address
     interval: in seconds (greater than 0)
+    start: as a daemon
+    stop: the daemon
 
 Example::
 
-    monitor.py 192.168.1.1 60
+    To start as daemon
+
+    monitor.py 192.168.1.1 60 start
+
+    To stop the running daemon
+
+    monitor.py 192.168.1.1 60 start
 
 Monitor result log 
 ==================
